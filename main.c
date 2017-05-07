@@ -110,9 +110,16 @@ void my_gets (char givenString[]) {
     char inputCharacter;
     int iterator = 0;
 
-    while (inputCharacter != '\n') {
+    while (inputCharacter != EOF) {
 
-        scanf("%c", &inputCharacter);
+        inputCharacter = getc(stdin);
+
+        if (inputCharacter == '\n') {
+
+            givenString[iterator - 1] = '\0';
+
+            return;
+        }
 
         givenString[iterator] = inputCharacter;
 
@@ -121,6 +128,8 @@ void my_gets (char givenString[]) {
     }
 
     givenString[iterator - 1] = '\0';
+
+    iterator = 0;
 
 }
 
@@ -133,7 +142,7 @@ int main()
     my_gets(firstString);
     my_gets(secondString);
 
-    printf("%s", firstString);
+    printf("%s", secondString);
 
     return 0;
 }

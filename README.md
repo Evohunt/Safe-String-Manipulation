@@ -10,7 +10,7 @@
     __Example input:__    
              
     ```C
-    printf("%s", "casablanca", 's');
+    printf("%s", my_strchr("casablanca", 's'));
     ```  
     __Example output:__    
     ```
@@ -20,7 +20,7 @@
     __Example input:__    
              
     ```C
-    printf("%s", "house", 'k');
+    printf("%s", my_strchr("house", 'k'));
     ```  
     __Example output:__    
     ```

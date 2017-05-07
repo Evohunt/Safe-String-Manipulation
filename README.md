@@ -2,7 +2,7 @@
 ---
    
    
-1. Fixed __my_gets__ function, now it can read more strings consecutively without exiting the program  
+1. Fixed a bug in  __my_gets__ function when the user could not read two or more strings consecutively without the program closing  
     ```C
     my_gets (char givenString[])
     ```   

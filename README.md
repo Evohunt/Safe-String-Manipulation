@@ -6,7 +6,7 @@
     ```C
     void my_strncpy (char targetString[], char givenString[], int numberOfCharacters)
     ```   
-    Copies the first given number of characters from a string to another string 
+    Copies the first given number of characters from a string to another string   
     __Example 1 input:__    
              
     ```C

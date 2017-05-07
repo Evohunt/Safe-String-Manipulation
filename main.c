@@ -105,7 +105,7 @@ int my_strcmp (char firstString[], char secondString[]) {
 
 }
 
-void my_gets (char givenString[]) {
+void my_gets (char givenString[]) { /// Still incomplete
 
     char inputCharacter;
     int iterator = 0;

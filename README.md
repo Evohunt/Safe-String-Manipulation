@@ -2,7 +2,7 @@
 ---
    
    
-1. Added __my_strchr__ function  
+* Added __my_strchr__ function  
     ```C
     char *my_strchr (char givenString[], char inputCharacter)
     ```   

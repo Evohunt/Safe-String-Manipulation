@@ -7,7 +7,7 @@
     void my_strncpy (char targetString[], char givenString[], int numberOfCharacters)
     ```   
     Copies the first given number of characters from a string to another string   
-    __Example 1 input:__    
+    __Example input:__    
              
     ```C
     char firstString[] = "Alexander";
@@ -17,12 +17,12 @@
     
     printf("%s", firstString);
     ```  
-    __Example 1 output:__    
+    __Example output:__    
     ```
     Mich
     ```  
-    If the given number is 0, nothing will be copied and the string will remain intact
-    __Example 2 input:__    
+    If the given number is 0, nothing will be copied and the string will remain intact  
+    __Example input:__    
              
     ```C
     char firstString[] = "Magic";
@@ -32,7 +32,7 @@
     
     printf("%s", firstString);
     ```  
-    __Example 2 output:__    
+    __Example output:__    
     ```
     Magic
     ``` 

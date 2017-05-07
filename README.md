@@ -20,7 +20,8 @@
     __Example 1 output:__    
     ```
     Mich
-    ```    
+    ```  
+    If the given number is 0, nothing will be copied and the string will remain intact
     __Example 2 input:__    
              
     ```C

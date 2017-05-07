@@ -1,3 +1,2 @@
 The project is currently incomplete. Most of the functions work, but still need some updates.
-The MASTER will be updated as soon as a patch is complete.   
-Check other branches for constant updates.
+The MASTER will be updated when the final patch is released. Until the, you can check other branches for the latest updates.

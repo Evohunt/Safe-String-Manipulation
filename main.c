@@ -150,8 +150,6 @@ char *my_strchr (char givenString[], char inputCharacter) {
 
     }
 
-    return "   ";
-
 }
 
 char firstString[DIM];

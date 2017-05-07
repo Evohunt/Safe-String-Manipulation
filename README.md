@@ -2,7 +2,7 @@
 ---
    
    
-1. Added __my_strcmp__ function  
+Added __my_strcmp__ function  
     ```C
     int my_strcmp (char firstString[], char secondString[])
     ```   

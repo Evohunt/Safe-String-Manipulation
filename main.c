@@ -48,6 +48,35 @@ void my_strcpy (char targetString[], char givenString[]) {
 }
 
 
+void my_strncpy (char targetString[], char givenString[], int numberOfCharacters) {
+
+    int iterator = 0;
+
+    if (numberOfCharacters == 0) {
+
+        return;
+
+    }
+
+    while (iterator < numberOfCharacters) {
+
+        targetString[iterator] = givenString[iterator];
+
+        if (givenString[iterator] == '\0') {
+
+            break;
+
+        }
+
+        iterator++;
+
+    }
+
+    targetString[iterator] = '\0';
+
+}
+
+
 void my_strcat (char targetString[], char givenString[]) {
 
     int iterator = 0;;
@@ -110,9 +139,16 @@ void my_gets (char givenString[]) {
     char inputCharacter;
     int iterator = 0;
 
-    while (inputCharacter != '\n') {
+    while (inputCharacter != EOF) {
 
-        scanf("%c", &inputCharacter);
+        inputCharacter = getc(stdin);
+
+        if (inputCharacter == '\n') {
+
+            givenString[iterator] = '\0';
+
+            return;
+        }
 
         givenString[iterator] = inputCharacter;
 
@@ -122,16 +158,41 @@ void my_gets (char givenString[]) {
 
     givenString[iterator - 1] = '\0';
 
+    iterator = 0;
+
+}
+
+
+char *my_strchr (char givenString[], char inputCharacter) {
+
+    int iterator = 0;
+
+    while (givenString[iterator] != '\0') {
+
+        if (givenString[iterator] == inputCharacter) {
+
+            return givenString + iterator;
+
+        }
+
+        iterator++;
+
+    }
+
 }
 
 char firstString[DIM];
 char secondString[DIM];
+char ch;
 
 int main()
 {
 
-    my_gets(firstString);
-    my_gets(secondString);
+
+    scanf("%s", firstString);
+    scanf("%s", secondString);
+
+    my_strncpy(firstString, secondString, 5);
 
     printf("%s", firstString);
 

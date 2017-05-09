@@ -1,38 +1,19 @@
-### Things changed in *`patch-0.18`*
+### Things changed in *`patch-0.19`*
 ---
    
    
-* Added __my_strncpy__ function  
+* Added __my_strstr__ function  
     ```C
-    void my_strncpy (char targetString[], char givenString[], int numberOfCharacters)
+    char *my_strstr (char targetString[], char givenString[])
     ```   
-    Copies the first given number of characters from a string to another string   
+    Prints the first aparition of a string in another string  
     __Example input:__    
              
     ```C
-    char firstString[] = "Alexander";
-    char secondString[] = "Michael";
-    
-    my_strncpy(firstString, secondString, 4);
-    
-    printf("%s", firstString);
+    printf("%s", my_strstr("casablanca", "bla"));
     ```  
     __Example output:__    
     ```
-    Mich
+    blanca
     ```  
-    If the given number is 0, nothing will be copied and the string will remain intact  
-    __Example input:__    
-             
-    ```C
-    char firstString[] = "Magic";
-    char secondString[] = "Dog";
-    
-    my_strncpy(firstString, secondString, 0);
-    
-    printf("%s", firstString);
-    ```  
-    __Example output:__    
-    ```
-    Magic
-    ``` 
+    If the character can't be found inside the given string the function will return a null value  

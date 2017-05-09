@@ -181,6 +181,51 @@ char *my_strchr (char givenString[], char inputCharacter) {
 
 }
 
+
+char *my_strstr (char targetString[], char givenString[]) {
+
+    int targetStringIterator = 0;
+    int givenStringIterator = 0;
+    int position = my_strlen(targetString);
+
+    if (my_strlen(targetString) < my_strlen(givenString)) {
+
+        return targetString + my_strlen(targetString);
+
+    }
+
+    while (targetString[targetStringIterator] != '\0') {
+
+        if (targetString[targetStringIterator] == givenString[0]) {
+
+            position = targetStringIterator;
+
+            while (givenString[givenStringIterator] != '\0') {
+
+                if (targetString[targetStringIterator] != givenString[givenStringIterator]) {
+
+                    givenStringIterator = 0;
+                    targetStringIterator = position;
+                    position = my_strlen(targetString);
+                    break;
+
+                }
+
+                givenStringIterator++;
+                targetStringIterator++;
+
+            }
+
+        }
+
+        targetStringIterator++;
+
+    }
+
+    return targetString + position;
+
+}
+
 char firstString[DIM];
 char secondString[DIM];
 char ch;
@@ -189,12 +234,10 @@ int main()
 {
 
 
-    scanf("%s", firstString);
-    scanf("%s", secondString);
+    my_gets(firstString);
+    my_gets(secondString);
 
-    my_strncpy(firstString, secondString, 5);
-
-    printf("%s", firstString);
+    printf("%s", my_strstr(firstString, secondString));
 
     return 0;
 }

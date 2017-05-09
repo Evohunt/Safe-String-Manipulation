@@ -1,19 +1,5 @@
-### Things changed in *`patch-0.19`*
+### Things changed in *`patch-0.20`*
 ---
    
    
-* Added __my_strstr__ function  
-    ```C
-    char *my_strstr (char targetString[], char givenString[])
-    ```   
-    Prints the first aparition of a string in another string  
-    __Example input:__    
-             
-    ```C
-    printf("%s", my_strstr("casablanca", "bla"));
-    ```  
-    __Example output:__    
-    ```
-    blanca
-    ```  
-    If the string can't be found inside the given string the function will return a null value  
+* All the functions have been moved to a `string_manipulation.h` now, so the main app is lighter.

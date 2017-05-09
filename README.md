@@ -2,4 +2,4 @@
 ---
    
    
-* All the functions have been moved to a `string_manipulation.h` now, so the main app is lighter.
+* All the functions have been moved to a __`string_manipulation.h`__ now, so the main app is lighter.

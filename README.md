@@ -16,4 +16,4 @@
     ```
     blanca
     ```  
-    If the character can't be found inside the given string the function will return a null value  
+    If the string can't be found inside the given string the function will return a null value  

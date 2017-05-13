@@ -1,43 +1,11 @@
-### Things changed in *`patch-0.15`*
+### Things changed in *`patch-0.21`*
 ---
    
    
-* Added __my_strcmp__ function  
-    ```C
-    int my_strcmp (char firstString[], char secondString[])
-    ```   
-    Compares two given strings, and returns 3 different values: 
-      
-    `1` - if the first string is lexicographically greater than the second one  
-    `0` - if the two strings are lexicographically equal  
-    `-1`   - if the first string is lexicographically less than the second one  
-    __Example input:__    
-             
-    ```C
-    printf("Compare result: %d", my_strcmp("bbc", "abc")); 
-    printf("Compare result: %d", my_strcmp("abc", "abc"));
-    printf("Compare result: %d", my_strcmp("abc", "bbc"));
-    ```  
-    __Example output:__    
-    ```
-    Compare result: 1  
-    Compare result: 0  
-    Compare result: -1  
-    ```  
+__1.__ All the functions have been moved in a separate __`string_manipulation.c`__ C file and the prototypes added in the __`string_manipulation.h`__ header file  
   
-  ### Things changed in *`patch-0.16`*
----
-   
-   
-__1__. Fixed a bug in  __`my_gets`__ function when the user could not read two or more strings consecutively without the program closing     
-__2__. The following functions now make sure that the given strings are null-terminated:  
-      ```C
-      my_strcpy (char targetString[], char givenString[])
-      ```  
-      ```C
-      my_strcat (char targetString[], char givenString[])
-      ```  
-      ```C
-      my_gets (char givenString[])
-      ```
-
+__2.__ Added detailed comments for every function to make the user understand them better  
+  
+__3.__ A __`makefile`__ has been added to the project. For further instructions on how to use it click [here](https://github.com/Evohunt/Safe-String-Manipulation/blob/patch-0.21/instructions.md)  
+  
+__4.__ __`auto_select_path.exe`__ executable added to help the user avoid entering the path of the project every time he/she needs to execute it in the __`cmd`__. Further instructions on how to use it can be found [here](https://github.com/Evohunt/Safe-String-Manipulation/blob/patch-0.21/instructions.md)  

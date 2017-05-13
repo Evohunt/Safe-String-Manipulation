@@ -16,3 +16,22 @@ __4.__ __`auto_select_path.exe`__ executable added to help the user avoid enteri
    
 * All the functions have been moved to a __`string_manipulation.h`__ now, so the main app is lighter.
   
+### Things changed in *`patch-0.19`*
+---
+   
+   
+* Added __my_strstr__ function  
+    ```C
+    char *my_strstr (char targetString[], char givenString[])
+    ```   
+    Prints the first aparition of a string in another string  
+    __Example input:__    
+             
+    ```C
+    printf("%s", my_strstr("casablanca", "bla"));
+    ```  
+    __Example output:__    
+    ```
+    blanca
+    ```  
+    If the string can't be found inside the given string the function will return a null value  

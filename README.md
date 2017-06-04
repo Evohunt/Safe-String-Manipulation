@@ -6,7 +6,7 @@ __1.__ Removed the old comments from the __`string_manipulation.c`__ file
   
 __2.__ Code formated in __`Carnegie Mellon University`__ style. For detailed information you can visit [this link](https://drive.google.com/file/d/0B0qJvJ1d8F8EeHkxY2lrUmxDOVE/view)  
   
-__3.__ Added an interractive, user-friendly menu in the __`main.c`__ file for a better use of the functions  
+__3.__ Added an interractive, user-friendly menu in the __`main.c`__ file for a simpler use of the functions  
   
 __4.__ Added __`input_generator.c`__ and __`input_generator.h`__ containing the random string generator function  
    ```C

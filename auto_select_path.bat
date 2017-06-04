@@ -1,4 +1,4 @@
 @echo off
 title PT Project file location selector
-cd C:\Users\Evohunt\Desktop\Facultate\Semestrul 2\PT Project\Safe String Manipulation
+cd C:\Users\Andrei\Desktop\Safe String Manipulation
 start

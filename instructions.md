@@ -1,7 +1,4 @@
-![alt text](http://i67.tinypic.com/2ebwumg.png "Click for instructions")
-  
-  
-### Instructions for *`auto_find_path.exe`* (Windows only)  
+ ### Instructions for *`auto_find_path.exe`* (Windows only)  
 
 
 In order to make the executable work for you, follow these steps:  

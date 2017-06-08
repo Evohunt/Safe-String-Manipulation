@@ -34,4 +34,5 @@ __2.__ Now, download [this](https://drive.google.com/file/d/0B0AO1uT-rzMLVGxyUUR
 __3.__ Go to your MinGW\bin folder (mine is __`C:\Program Files (x86)\Codeblocks\MingGW\bin`__) and extract the file you downloaded there
   
 __4.__ If you have __`cmd`__ opened, close it and run it again. The problem should be fixed now. To check if it works, type __`make -v`__ and press __`ENTER`__. It should look like this:  
+  
 ![Example](http://i67.tinypic.com/2isumjb.png "Example")

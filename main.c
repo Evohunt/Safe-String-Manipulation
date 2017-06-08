@@ -1,11 +1,21 @@
+/**
+*       The main file of the project, containing all the created
+*       libraries (string_manipulation.h and input_generator.h),
+*       as well as a user-friendly menu designed for an easy
+*       access to all the string manipulation C functions
+*       reimplemented in this project.
+*       
+*       @author Dana Andrei - Iulian
+*       @date 5/22/2017    
+*/
+
 # include <stdio.h>
 # include <stdlib.h>
 # include <stdbool.h>
 # include "string_manipulation.h"
 # include "input_generator.h"
-# include "string_checker.h"
 
-# define DIM 10010
+# define DIM 110000
 
 char first_string[DIM];
 char second_string[DIM];

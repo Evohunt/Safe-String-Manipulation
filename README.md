@@ -1,4 +1,4 @@
-## Things changed in *`patch-0.23`*
+### Things changed in *`patch-0.23`*
 ---
   
     

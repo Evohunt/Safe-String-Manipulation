@@ -1,5 +1,7 @@
 /**
-*       The main file of the project, containing all the created
+*       @file main.c
+*
+*       @brief  The main file of the project, containing all the created
 *       libraries (string_manipulation.h and input_generator.h),
 *       as well as a user-friendly menu designed for an easy
 *       access to all the string manipulation C functions

@@ -1,3 +1,12 @@
+## Things changed in *`patch-0.23`*
+---
+  
+    
+__1.__ Removed __`string_checker.c`__ and __`string_checker.h`__ files from the project, as they were never used  
+  
+__2.__ Added suggestive comments for __`string_manipulation.c`__, __`main.c`__ and __`input_generator.c`__ files (comments are formatted for Doxygen-like documentations)  
+  
+    
 ### Things changed in *`patch-0.22`*
 ---
   

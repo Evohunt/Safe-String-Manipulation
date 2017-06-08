@@ -1,3 +1,11 @@
+/**
+*		@file 	input_generator.c
+*		@brief 	Generates a random string as input
+*
+*		@author Dana Andrei - Iulian
+*		
+*		@date 	5/25/2017
+*/
 # include <stdio.h>
 # include <stdlib.h>
 # include <time.h>

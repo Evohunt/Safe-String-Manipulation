@@ -1,4 +1,4 @@
-[![alt text](http://i67.tinypic.com/2ebwumg.png "Click for instructions")](https://github.com/Evohunt/Safe-String-Manipulation/blob/master/instructions.md)
+[![alt text](http://i67.tinypic.com/2ebwumg.png "Click for instructions")](https://github.com/Evohunt/Safe-String-Manipulation/blob/master/Project/instructions.md)
    
    
 ### Things changed in *`patch-0.24`*

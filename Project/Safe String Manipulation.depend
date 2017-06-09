@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1494347374 source:c:\users\evohunt\desktop\facultate\semestrul 2\pt project\safe string manipulation\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string_manipulation.h"
+
+1493401085 c:\users\evohunt\desktop\facultate\semestrul 2\pt project\safe string manipulation\functions.h
+
+1494347357 c:\users\evohunt\desktop\facultate\semestrul 2\pt project\safe string manipulation\string_manipulation.h
+

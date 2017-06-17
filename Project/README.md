@@ -1,6 +1,11 @@
 [![alt text](http://i67.tinypic.com/2ebwumg.png "Click for instructions")](https://github.com/Evohunt/Safe-String-Manipulation/blob/master/Project/instructions.md)
    
    
+### Things changed in *`patch-0.25`*
+---
+Added __`latex_documentation.pdf`__ to the project
+  
+    
 ### Things changed in *`patch-0.24`*
 ---
   
